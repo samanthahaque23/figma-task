@@ -123,14 +123,14 @@ select{
 .sidebar-bottom{
     margin-top: 50px;
 }
-.logo-title{
+.logo-title p{
     color: black;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     padding: 1px 4px;
 }
 .logo-section{
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .setting-section{
     width: 100%;
@@ -166,6 +166,10 @@ select{
 .topnav .icon {
   display: none;
 }
+.sidebar-item-icon i{
+ color: #667085;
+}
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -200,12 +204,7 @@ input[type=text], select {
     display: flex;
     justify-content: space-between;
   }
-  .button-design{
-    border: none; 
-  }
-  .button-design.active{
-    border-bottom: 2px solid purple;
-  }
+
   .setting-button-mobile{
     display: none;
 }

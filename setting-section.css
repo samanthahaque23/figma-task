@@ -1,0 +1,152 @@
+.setting-section {
+    padding: 20px 20px 48px 0px;
+}
+
+.setting-header {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.setting-title p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.setting-button-desktop {
+    padding-top: 20px;
+}
+
+.button-design {
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    color: #667085;
+    border: none;
+}
+
+.button-design.active {
+    color: #6941C6;
+    border-bottom: 2px solid #6941C6;
+
+}
+
+.setting-form {
+    padding: 30px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.personal-info .personal-info-title .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #101828;
+    padding-bottom: 4px;
+}
+
+.personal-info .personal-info-title .title-text {
+    font-size: 13px;
+    font-weight: 500;
+    font-size: 13px;
+    color: #667085;
+}
+
+.personal-info button,.personal-info-buttons button {
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    margin: 2px;
+    color: #fff;
+}
+
+button.save {
+    background-color: #6941C6;
+    border: 1px solid #6941C6;
+
+}
+
+button.cancel {
+    border: 1px solid #667085;
+    color: #667085;
+}
+
+.name-input input {
+    width: 200px !important;
+    margin: 5px;
+}
+
+.email-input input {
+    width: 415px !important;
+    margin: 5px;
+}
+
+.input-box, .image-input-box {
+    width: 100%;
+    text-align: center;
+}
+
+.desktop-screen-label {
+    display: flex;
+    align-items: center;
+}
+
+.photo-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-label label {
+    font-size: 15px;
+}
+
+.photo-label .photo-label-info {
+    font-size: 12px;
+}
+
+.current-image {
+    height: 100%;
+    padding: 4px;
+}
+
+.current-image img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.file-upload {
+    height: 120px;
+    width: 360px;
+    border: 2px solid #6941C6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image-input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-label label, .photo-label label, .email-label label {
+    width: 210px;
+}
+
+.file-upload .icon-info {
+    font-size: 13px;
+}
+
+.image-file-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+}
