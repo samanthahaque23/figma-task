@@ -281,10 +281,12 @@
               </div>
             </div>
             <div class="name-input">
-            <div class="name-label">
-              <label class="mobile-screen-label" for="fname">First Name</label>
-              <label class="desktop-screen-label" for="fname">Name</label>
-            </div>
+              <div class="name-label">
+                <label class="mobile-screen-label" for="fname"
+                  >First Name</label
+                >
+                <label class="desktop-screen-label" for="fname">Name</label>
+              </div>
               <div class="input-box">
                 <input
                   type="text"
@@ -304,7 +306,7 @@
             </div>
             <div class="email-input">
               <div class="email-label">
-              <label class="desktop-screen-label" for="fname">Email</label>
+                <label class="desktop-screen-label" for="fname">Email</label>
               </div>
               <div class="input-box">
                 <input
@@ -316,123 +318,194 @@
               </div>
             </div>
             <div class="name-input">
-             <div class="photo-label">
-              <label class="photo-label-title" for="fname">Your photo</label>
-              <label class="photo-label-info" for="fname">This will be displayed on your profile.</label>
-             </div>
+              <div class="photo-label">
+                <label class="photo-label-title" for="fname">Your photo</label>
+                <label class="photo-label-info" for="fname"
+                  >This will be displayed on your profile.</label
+                >
+              </div>
               <div class="image-input-box">
                 <div class="current-image">
-                  <img src="olivia.jpg" alt="" srcset="">
+                  <img src="olivia.jpg" alt="" srcset="" />
                 </div>
-                 <div class="file-upload">
-                 <div class="icon">
-                  <i class="fas fa-cloud-upload-alt"></i>
-                 </div>
-                 <div class="icon-info">
-                  <a href="" class="upload-link">Click to upload</a>or drag and drop
-                  <p class="upload-link-info">SVG, PNG, JPG or GIF (max. 800x400px)</p>
-                 </div>
-                 
-                 <div class="image-file-icon">
-                  <i class="fas fa-file-image"></i>
-                 </div>
-                 </div>
+                <div class="file-upload">
+                  <div class="icon">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                  </div>
+                  <div class="icon-info">
+                    <a href="" class="upload-link">Click to upload</a>or drag
+                    and drop
+                    <p class="upload-link-info">
+                      SVG, PNG, JPG or GIF (max. 800x400px)
+                    </p>
+                  </div>
+
+                  <div class="image-file-icon">
+                   <img src="jpg.png" alt="" srcset="">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-              <label class="desktop-screen-label" for="fname">Role</label>
+                <label class="desktop-screen-label" for="fname">Role</label>
               </div>
               <div class="input-box">
                 <input
                   type="text"
                   id="fname"
                   name="firstname"
-                  placeholder="olivia@untitledui.com"
+                  placeholder="Product Designer"
                 />
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-              <label class="desktop-screen-label" for="fname">Country</label>
+                <label class="desktop-screen-label" for="fname">Country</label>
               </div>
-              <div class="input-box">
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="olivia@untitledui.com"
-                />
-              </div>
-            </div>
-            <div class="email-input">
-              <div class="email-label">
-              <label class="desktop-screen-label" for="fname">TimeZone</label>
-              </div>
-              <div class="input-box">
-                <input
-                  type="text"
-                  id="fname"
-                  name="firstname"
-                  placeholder="olivia@untitledui.com"
-                />
+              <div class="select-box">
+                <select id="country" name="country">
+                  <option value="Home">
+                    <img
+                      class="country-img"
+                      src="olivia.jpg"
+                      alt=""
+                      srcset=""
+                    />Australia
+                  </option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-              <label class="desktop-screen-label" for="fname">Bio</label>
+                <label class="desktop-screen-label" for="fname">TimeZone</label>
+              </div>
+              <div class="select-box">
+                <select id="country" name="country">
+                  <option value="Home">
+                    <img
+                      class="country-img"
+                      src="olivia.jpg"
+                      alt=""
+                      srcset=""
+                    />Pacific Standard Time (PST) UTC−08:00
+                  </option>
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
+              </div>
+            </div>
+            <div class="email-input">
+              <div class="email-label">
+                <label class="desktop-screen-label" for="fname">Bio</label>
+                <p>Write a short introduction.</p>
               </div>
               <div class="input-box">
-                <div class="country">
-                  <div>
+                <div class="country bio-edit">
+                  <div class="bio-select-box">
                     <select id="country" name="country">
                       <option value="australia">Regular</option>
                       <option value="canada">Canada</option>
                       <option value="usa">USA</option>
                     </select>
                   </div>
-                  <div>
-                    <button>B</button>
-                    <button>I</button>
+                  <div class="bio-text-editor">
+                    <button class="button-icon">B</button>
+                    <button class="button-icon"><i>I</i></button>
+                    <button class="button-icon">
+                      <i class="fa-solid fa-paperclip"></i>
+                    </button>
+                    <button class="button-icon">
+                      <i class="fa-solid fa-list"></i>
+                    </button>
                   </div>
                 </div>
-                <div>
-                  <input type="textarea" name="" id="" />
+                <div class="bio-textarea">
+                  <textarea name="" id="">
+I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design,brand strategy, and Webflow development.
+                </textarea
+                  >
                 </div>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-              <label class="desktop-screen-label" for="fname">Portfolio Projects</label>
+                <label class="desktop-screen-label" for="fname"
+                  >Portfolio Projects</label
+                >
               </div>
               <div class="input-box">
-                <div>
-                  <div>
-                    <select id="country" name="country">
-                      <option value="australia">Regular</option>
-                      <option value="canada">Canada</option>
-                      <option value="usa">USA</option>
-                    </select>
+                <div class="portfolio">
+                  <div class="file-upload">
+                    <div class="icon">
+                     <img src="cloud-computing.png" alt="" srcset="">
+                    </div>
+                    <div class="icon-info">
+                      <a href="" class="upload-link">Click to upload</a> or drag
+                      and drop
+                      <p class="upload-link-info">
+                        SVG, PNG, JPG or GIF (max. 800x400px)
+                      </p>
+                    </div>
+
+                    <div class="image-file-icon">
+                      <img src="jpg.png" alt="" srcset="">
+                     </div>
                   </div>
-                  <div>
-                    <label for="country">Portfolio Projects</label>
+                  <div class="file-detail">
+                    <div class="file-type-icon">
+                      <img src="pdf (1).png" alt="" srcset="">
+                    </div>
+                    <div class="file-progress">
+                      <div class="file-name">tedf.pdf</div>
+                       <div class="progress">
+                        <div class="portfolio-progress-bar-section">
+                          <div class="portfolio-progress-bar"></div>
+                          <div class="portfolio-progress-bar-cover one"></div>
+                        </div>
+                        <div class="progress-percentage">100%</div>
+                       </div>
+                    </div>
+                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
                   </div>
-                  <div>
-                    <label for="country">Portfolio Projects</label>
+                  <div class="file-detail">
+                    <div class="file-type-icon">
+                      <img src="mp4-file.png" alt="" srcset="">
+                    </div>
+                    <div class="file-progress">
+                      <div class="file-name">tedf.pdf</div>
+                       <div class="progress">
+                        <div class="portfolio-progress-bar-section">
+                          <div class="portfolio-progress-bar"></div>
+                          <div class="portfolio-progress-bar-cover two"></div>
+                        </div>
+                        <div class="progress-percentage">80%</div>
+                       </div>
+                    </div>
+                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
                   </div>
-                  <div>
-                    <label for="country">Portfolio Projects</label>
-                  </div>
-                  <div>
-                    <label for="country">Portfolio Projects</label>
+                  <div class="file-detail">
+                    <div class="file-type-icon">
+                      <img src="video.png" alt="" srcset="">
+                    </div>
+                    <div class="file-progress">
+                      <div class="file-name">tedf.pdf</div>
+                       <div class="progress">
+                        <div class="portfolio-progress-bar-section">
+                          <div class="portfolio-progress-bar"></div>
+                          <div class="portfolio-progress-bar-cover three"></div>
+                        </div>
+                        <div class="progress-percentage">30%</div>
+                       </div>
+                    </div>
+                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
                   </div>
                 </div>
               </div>
             </div>
-            
-            
-          
-           
+
             <div class="personal-info-buttons">
               <button class="cancel">Cancel</button>
               <button class="save">Save</button>

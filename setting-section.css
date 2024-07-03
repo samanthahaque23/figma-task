@@ -55,7 +55,7 @@
     color: #667085;
 }
 
-.personal-info button,.personal-info-buttons button {
+.personal-info button, .personal-info-buttons button {
     height: 30px;
     width: 70px;
     border-radius: 5px;
@@ -74,6 +74,10 @@ button.cancel {
     color: #667085;
 }
 
+.name-input, .email-input {
+    padding: 10px 0;
+}
+
 .name-input input {
     width: 200px !important;
     margin: 5px;
@@ -84,7 +88,7 @@ button.cancel {
     margin: 5px;
 }
 
-.input-box, .image-input-box {
+.input-box, .image-input-box, .select-box, .bio-edit {
     width: 100%;
     text-align: center;
 }
@@ -149,4 +153,117 @@ button.cancel {
     bottom: 0;
     right: 0;
     padding: 5px;
+}
+
+.select-box select {
+    height: 35px;
+    width: 415px;
+}
+
+.bio-select-box {
+    height: 35px;
+    width: 205px;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+}
+
+.bio-text-editor {
+    width: 215px;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+
+}
+
+.bio-textarea textarea {
+    height: 100px;
+    width: 410px;
+    margin: 5px;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
+}
+
+.button-icon {
+    border: none;
+    color: #98A2B3;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.portfolio {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.file-detail {
+    display: flex;
+    margin: 10px;
+}
+
+.file-type-icon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.file-type-icon img {
+    height: 30px;
+    width: 30px;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.portfolio-progress-bar-section {
+    position: relative;
+    margin: 15px 0;
+}
+
+.portfolio-progress-bar {
+    height: 8px;
+    width: 290px;
+    background-color: #EAECF0;
+    border-radius: 3px;
+}
+
+.portfolio-progress-bar-cover {
+    position: absolute;
+    top: 0;
+    height: 8px;
+    border-radius: 3px;
+    background-color: #7F56D9;
+
+}
+.portfolio-progress-bar-cover.one{
+    width: 290px !important;
+}
+.portfolio-progress-bar-cover.two{
+    width: 220px !important;
+}
+.portfolio-progress-bar-cover.three{
+    width: 150px !important;
+}
+.portfolio .file-upload {
+    height: 120px;
+    width: 410px;
+    border: 2px solid #EAECF0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.file-upload .icon img{
+    height: 22px;
+    width: 22px;
+}
+.personal-info-buttons{
+    text-align: end;
 }
