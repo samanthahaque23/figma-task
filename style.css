@@ -223,7 +223,6 @@ input[type=submit]:hover {
 
 .setting-form {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px;
 }
 
@@ -248,28 +247,145 @@ input[type=submit]:hover {
   display: flex;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
+  .file-detail {
+    width: 100% !important;
+  }
+
+  .file-type-icon {
+    width: 10%;
+  }
+
+  .file-progress {
+    width: 75%;
+  }
+
+  .file-name {
+    width: 100%;
+  }
+
+  .portfolio-progress-bar-section {
+    width: 95%;
+  }
+
+  .portfolio-progress-bar {
+    width: 100% !important;
+  }
+
+  .portfolio-progress-bar-cover.one {
+    width: 100% !important;
+  }
+  .portfolio-progress-bar-cover.two {
+    width: 80% !important;
+  } 
+  .portfolio-progress-bar-cover.three {
+    width: 30% !important;
+  }
+  .progress-percentage {
+    width: 5%;
+  }
+
+  .bio-select-box, .bio-select-box select, .bio-textarea textarea, .portfolio .file-upload {
+    width: 100% !important;
+  }
+
   .topnav a:not(:first-child) {
     display: none;
+  }
+
+  .fg--search {
+    background: white;
+    position: relative;
+    width: 100% !important;
+  }
+
+  .setting-section {
+    padding: 20px 0 48px 0px !important;
+  }
+
+  .setting-search {
+    width: 90%;
+  }
+
+  .setting-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .topnav a.icon {
     float: right;
     display: block;
+    margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .setting-button-desktop, .desktop-screen-label {
-    display: none;
+    display: none !important;
   }
 
   .setting-button-mobile, .mobile-screen-label {
     display: block;
   }
 
+  .mobile-screen-label {
+    text-align: start;
+  }
+
+  .name-input input {
+    width: 100% !important;
+    margin: 5px;
+  }
+
+  .setting-form {
+
+    padding: 20px;
+  }
+
   .name-input, .email-input, .country {
     flex-direction: column;
+  }
+
+  .image-input-box {
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .email-input input {
+    width: 100% !important;
+    margin: 5px;
+  }
+
+  .select-box select {
+    height: 35px;
+    width: 100% !important;
+  }
+
+  .setting-button-mobile {
+    margin-top: 60px;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .personal-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  .personal-info-buttons {
+    text-align: start !important;
+    padding: 10px 0;
+  }
+
+  .setting-button-mobile select {
+    height: 35px;
+    width: 100%;
+    border: 1px solid #ccc !important;
+
   }
 
   .sidebar-bottom {

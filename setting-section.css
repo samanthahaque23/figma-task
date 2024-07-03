@@ -79,12 +79,12 @@ button.cancel {
 }
 
 .name-input input {
-    width: 200px !important;
+    width: 200px ;
     margin: 5px;
 }
 
 .email-input input {
-    width: 415px !important;
+    width: 415px ;
     margin: 5px;
 }
 
@@ -93,7 +93,7 @@ button.cancel {
     text-align: center;
 }
 
-.desktop-screen-label {
+.desktop-screen-label,.setting-form-label {
     display: flex;
     align-items: center;
 }
@@ -141,7 +141,7 @@ button.cancel {
 }
 
 .name-label label, .photo-label label, .email-label label {
-    width: 210px;
+    width: 210px !important;
 }
 
 .file-upload .icon-info {
@@ -241,13 +241,13 @@ button.cancel {
 
 }
 .portfolio-progress-bar-cover.one{
-    width: 290px !important;
+    width: 290px ;
 }
 .portfolio-progress-bar-cover.two{
-    width: 220px !important;
+    width: 220px;
 }
 .portfolio-progress-bar-cover.three{
-    width: 150px !important;
+    width: 150px ;
 }
 .portfolio .file-upload {
     height: 120px;
@@ -266,4 +266,8 @@ button.cancel {
 }
 .personal-info-buttons{
     text-align: end;
+}
+.hamburger{
+    height: 30px !important;
+    width: 30px !important;
 }
