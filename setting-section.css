@@ -165,10 +165,10 @@ button.cancel {
     padding: 5px;
 }
 
-.select-box select {
+.select-box select,.country.select-box select {
     height: 35px !important;
     width: 415px;
-    border: 1px solid #D0D5DD;
+    border: 1px solid #D0D5DD !important;
     border-radius: 5px;
 }
 

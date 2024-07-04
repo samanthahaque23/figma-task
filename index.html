@@ -273,11 +273,19 @@
                 <label class="mobile-screen-label">First Name</label>
                 <label class="desktop-screen-label">Name</label>
               </div>
-              <div class="input-box" >
-                <input style="height: 35px;" type="text" placeholder="Your first name" />
+              <div class="input-box">
+                <input
+                  style="height: 35px"
+                  type="text"
+                  placeholder="Your first name"
+                />
 
                 <label class="mobile-screen-label">Last Name</label>
-                <input style="height: 35px;" type="text" placeholder="Your last name.." />
+                <input
+                  style="height: 35px"
+                  type="text"
+                  placeholder="Your last name.."
+                />
               </div>
             </div>
             <div class="email-input">
@@ -285,7 +293,11 @@
                 <label class="setting-form-label">Email</label>
               </div>
               <div class="input-box">
-                <input style="height: 35px;" type="text" placeholder="olivia@untitledui.com" />
+                <input
+                  style="height: 35px"
+                  type="text"
+                  placeholder="olivia@untitledui.com"
+                />
               </div>
             </div>
             <div class="name-input">
@@ -321,32 +333,62 @@
                 <label class="setting-form-label">Role</label>
               </div>
               <div class="input-box">
-                <input style="height: 35px;" type="text" placeholder="Product Designer" />
+                <input
+                  style="height: 35px"
+                  type="text"
+                  placeholder="Product Designer"
+                />
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
                 <label class="setting-form-label">Country</label>
               </div>
-              <div class="select-box">
-                <div class="select-container">
+              <div class="country select-box">
+                <select name="options">
+                  <option value="Home">
+                    <img
+                      class="responsive-align-img"
+                      src="australia.webp"
+                      alt=""
+                    />Australia
+                  </option>
+                  <option value="options">options</option>
+                  <option value="options">options</option>
+                </select>
+
+                <!-- <div class="select-container">
                   <div class="select">
-                      <span id="input" class="select-country-input"> <img class="select-img" src="australia.webp" alt="flag"> Australia </span>
+                    <span id="input" class="select-country-input">
+                      <img class="select-img" src="australia.webp" alt="flag" />
+                      Australia
+                    </span>
                   </div>
                   <div class="option-container">
-                      <div class="option">
-                          <label class="select-country-input"> <img class="select-img" src="australia.webp" alt="flag"> Australia </label>
-                      </div>
-                      <div class="option">
-                        <label class="select-country-input"> <img class="select-img" src="canada.jpg" alt="flag"> Canada </label>
-                      </div>
-                     
-                      <div class="option">
-                        <label class="select-country-input"> <img class="select-img" src="usa.png" alt="flag"> USA </label>
-                      </div>
-                    
+                    <div class="option">
+                      <label class="select-country-input">
+                        <img
+                          class="select-img"
+                          src="australia.webp"
+                          alt="flag"
+                        />
+                        Australia
+                      </label>
+                    </div>
+                    <div class="option">
+                      <label class="select-country-input">
+                        <img class="select-img" src="canada.jpg" alt="flag" />
+                        Canada
+                      </label>
+                    </div>
+
+                    <div class="option">
+                      <label class="select-country-input">
+                        <img class="select-img" src="usa.png" alt="flag" /> USA
+                      </label>
+                    </div>
                   </div>
-              </div>
+                </div> -->
               </div>
             </div>
             <div class="email-input">
@@ -502,25 +544,25 @@ I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI desi
         }
       }
       let selectContainer = document.querySelector(".select-container");
-        let select = document.querySelector(".select");
-        let input = document.getElementById("input");
-        let options = document.querySelectorAll(".select-container .option");
+      let select = document.querySelector(".select");
+      let input = document.getElementById("input");
+      let options = document.querySelectorAll(".select-container .option");
 
-        select.onclick = () => {
-            selectContainer.classList.toggle("active");
-        };
+      select.onclick = () => {
+        selectContainer.classList.toggle("active");
+      };
 
-        options.forEach((e) => {
-            e.addEventListener("click", () => {
-                input.innerHTML = e.innerHTML; // Update the displayed value
-                console.log(input.innerHTML);
-                selectContainer.classList.remove("active");
-                options.forEach((option) => {
-                    option.classList.remove("selected");
-                });
-                e.classList.add("selected");
-            });
+      options.forEach((e) => {
+        e.addEventListener("click", () => {
+          input.innerHTML = e.innerHTML; // Update the displayed value
+          console.log(input.innerHTML);
+          selectContainer.classList.remove("active");
+          options.forEach((option) => {
+            option.classList.remove("selected");
+          });
+          e.classList.add("selected");
         });
+      });
     </script>
   </body>
 </html>

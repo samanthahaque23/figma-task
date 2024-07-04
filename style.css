@@ -245,7 +245,6 @@ input[type=submit]:hover {
   display: none;
 }
 
-
 .name-input, .email-input, .responsive-align {
   display: flex;
 }
@@ -259,6 +258,9 @@ input[type=submit]:hover {
 }
 }
 @media screen and (max-width: 1000px) {
+  .image-input-box {
+    align-items: start  !important;
+}
   .file-detail {
     width: 100% !important;
   }
