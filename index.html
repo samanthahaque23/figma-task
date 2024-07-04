@@ -20,11 +20,11 @@
   </head>
   <body>
     <div class="container" style="display: flex">
-      <div class="topnav" id="myTopnav">
+      <div class="sidebar" id="myTopnav">
         <a class="">
           <div class="d-flex logo-section">
             <div class="logo">
-              <img src="logo.png" alt="" srcset="" />
+              <img src="logo.png" alt="" />
             </div>
             <div class="logo-title"><p>Untitled UI</p></div>
           </div>
@@ -43,10 +43,10 @@
               <div class="sidebar-item-icon center">
                 <i class="fas fa-home"></i>
               </div>
-              <select  name="country">
+              <select name="Home">
                 <option value="Home">Home</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="Home">Home</option>
+                <option value="Home">Home</option>
               </select>
             </div>
           </div>
@@ -57,10 +57,10 @@
               <div class="sidebar-item-icon center">
                 <i class="fas fa-chart-bar"></i>
               </div>
-              <select  name="country">
-                <option value="dashboard">dashboard</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+              <select name="Dashboard">
+                <option value="Dashboard">Dashboard</option>
+                <option value="Dashboard">options</option>
+                <option value="Dashboard">options</option>
               </select>
             </div>
           </div>
@@ -71,10 +71,10 @@
               <div class="sidebar-item-icon center">
                 <i class="fas fa-layer-group"></i>
               </div>
-              <select  name="country">
+              <select name="options">
                 <option value="projects">Projects</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="options">options</option>
+                <option value="options">options</option>
               </select>
             </div>
           </div>
@@ -87,8 +87,8 @@
               </div>
               <select class="ml-4">
                 <option value="tasks">Tasks</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="options">options</option>
+                <option value="options">options</option>
               </select>
             </div>
           </div>
@@ -101,8 +101,8 @@
               </div>
               <select class="ml-4">
                 <option value="report">Report</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="options">options</option>
+                <option value="options">options</option>
               </select>
             </div>
           </div>
@@ -113,16 +113,16 @@
               <div class="sidebar-item-icon center">
                 <i class="fas fa-users"></i>
               </div>
-              <select  name="country">
+              <select name="options">
                 <option value="users">Users</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+                <option value="options">options</option>
+                <option value="options">options</option>
               </select>
             </div>
           </div>
         </a>
 
-        <a class="sidebar-bottom" style="">
+        <a class="sidebar-bottom">
           <div class="d-flex">
             <div class="sidebar-item-icon center">
               <i class="fas fa-futbol"></i>
@@ -147,7 +147,7 @@
           </div>
         </a>
 
-        <a href="">
+        <a>
           <div class="user-space" style="margin-top: 10px">
             <p
               style="
@@ -178,11 +178,11 @@
             <button class="user-button">Update Plan</button>
           </div>
         </a>
-        <a href="">
+        <a>
           <div class="user-profile d-flex j-space-between">
             <div class="user-info d-flex">
               <div class="user-image">
-                <img src="olivia.jpg" alt="" srcset="" />
+                <img src="olivia.jpg" alt="" />
               </div>
               <div class="user-text-info" style="padding: 1px">
                 <p
@@ -196,30 +196,17 @@
                 >
                   Olivia Rhye
                 </p>
-                <p
-                  class="user-email"
-                  style="
-                    font-size: 12px;
-                    text-align: start;
-                    color: #475467;
-                    font-weight: 600;
-                  "
-                >
-                  olivia@untitledui.com
-                </p>
+                <p class="user-email">olivia@untitledui.com</p>
               </div>
             </div>
             <div class="logout">
-              <i
-                style="color: #475467; margin-top: 10px; margin-left: 20px"
-                class="fas fa-sign-out-alt"
-              ></i>
+              <i class="sign-out-icon fas fa-sign-out-alt"></i>
             </div>
           </div>
         </a>
 
         <a href="javascript:void(0);" class="icon" onclick="topNavFunction()">
-          <img src="hamburger.jpg" class="hamburger" alt="" srcset="">
+          <img src="hamburger.jpg" class="hamburger" alt="" />
         </a>
       </div>
       <div class="setting-section" id="settingSection">
@@ -238,7 +225,7 @@
         </div>
         <div class="setting-buttons">
           <div class="setting-button-mobile">
-            <select  name="country">
+            <select name="options">
               <option value="option-design">My details</option>
               <option value="option-design">Profile</option>
               <option value="option-design">Password</option>
@@ -282,129 +269,108 @@
             </div>
             <div class="name-input">
               <div class="name-label">
-                <label class="mobile-screen-label" 
-                  >First Name</label
-                >
-                <label class="desktop-screen-label" >Name</label>
+                <label class="mobile-screen-label">First Name</label>
+                <label class="desktop-screen-label">Name</label>
               </div>
               <div class="input-box">
-                <input
-                  type="text"
-                  name="firstname"
-                  placeholder="Your name.."
-                />
+                <input type="text" placeholder="Your name.." />
 
                 <label class="mobile-screen-label">Last Name</label>
-                <input
-                  type="text"
-                  name="lastname"
-                  placeholder="Your last name.."
-                />
+                <input type="text" placeholder="Your last name.." />
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" >Email</label>
+                <label class="setting-form-label">Email</label>
               </div>
               <div class="input-box">
-                <input
-                  type="text"
-                  name="firstname"
-                  placeholder="olivia@untitledui.com"
-                />
+                <input type="text" placeholder="olivia@untitledui.com" />
               </div>
             </div>
             <div class="name-input">
               <div class="photo-label">
-                <label class="photo-label-title" >Your photo</label>
-                <label class="photo-label-info" 
+                <label class="photo-label-title">Your photo</label>
+                <label class="photo-label-info"
                   >This will be displayed on your profile.</label
                 >
               </div>
               <div class="image-input-box">
                 <div class="current-image">
-                  <img src="olivia.jpg" alt="" srcset="" />
+                  <img src="olivia.jpg" alt="olivia" />
                 </div>
                 <div class="file-upload">
                   <div class="icon">
                     <i class="fas fa-cloud-upload-alt"></i>
                   </div>
                   <div class="icon-info">
-                    <a href="" class="upload-link">Click to upload</a>or drag
-                    and drop
+                    <a class="upload-link">Click to upload</a>or drag and drop
                     <p class="upload-link-info">
                       SVG, PNG, JPG or GIF (max. 800x400px)
                     </p>
                   </div>
 
                   <div class="image-file-icon">
-                   <img src="jpg.png" alt="" srcset="">
+                    <img src="jpg.png" alt="jpg" />
                   </div>
                 </div>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" >Role</label>
+                <label class="setting-form-label">Role</label>
               </div>
               <div class="input-box">
-                <input
-                  type="text"
-                  name="firstname"
-                  placeholder="Product Designer"
-                />
+                <input type="text" placeholder="Product Designer" />
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" >Country</label>
+                <label class="setting-form-label">Country</label>
               </div>
               <div class="select-box">
-                <select  name="country">
+                <select name="options">
                   <option value="Home">
                     <img
-                      class="country-img"
-                      src="olivia.jpg"
+                      class="responsive-align-img"
+                      src="australia.webp"
                       alt=""
-                      srcset=""
                     />Australia
                   </option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
+                  <option value="options">options</option>
+                  <option value="options">options</option>
                 </select>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" >TimeZone</label>
+                <label class="setting-form-label">TimeZone</label>
               </div>
               <div class="select-box">
-                <select  name="country">
+                <select name="options">
                   <option value="Home">
                     <img
-                      class="country-img"
+                      class="responsive-align-img"
                       src="olivia.jpg"
                       alt=""
-                      srcset=""
                     />Pacific Standard Time (PST) UTC−08:00
                   </option>
-                  <option value="canada">Canada</option>
-                  <option value="usa">USA</option>
+                  <option value="options">options</option>
+                  <option value="options">options</option>
                 </select>
               </div>
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" >Bio</label>
-                <p>Write a short introduction.</p>
+                <label class="setting-form-label">Bio</label>
+                <p class="bio-label-info">Write a short introduction.</p>
               </div>
               <div class="input-box">
-                <div class="country bio-edit">
+                <div class="responsive-align bio-edit">
                   <div class="bio-select-box">
-                    <select  name="country">
+                    <select name="options">
                       <option value="australia">Regular</option>
-                      <option value="canada">Canada</option>
-                      <option value="usa">USA</option>
+                      <option value="options">options</option>
+                      <option value="options">options</option>
                     </select>
                   </div>
                   <div class="bio-text-editor">
@@ -412,6 +378,9 @@
                     <button class="button-icon"><i>I</i></button>
                     <button class="button-icon">
                       <i class="fa-solid fa-paperclip"></i>
+                    </button>
+                    <button class="button-icon">
+                      <i class="fa-solid fa-list"></i>
                     </button>
                     <button class="button-icon">
                       <i class="fa-solid fa-list"></i>
@@ -428,75 +397,79 @@ I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI desi
             </div>
             <div class="email-input">
               <div class="email-label">
-                <label class="setting-form-label" 
-                  >Portfolio Projects</label
-                >
+                <label class="setting-form-label">Portfolio Projects</label>
               </div>
               <div class="input-box">
                 <div class="portfolio">
                   <div class="file-upload">
                     <div class="icon">
-                     <img src="cloud-computing.png" alt="" srcset="">
+                      <img src="cloud-computing.png" alt="" />
                     </div>
                     <div class="icon-info">
-                      <a href="" class="upload-link">Click to upload</a> or drag
-                      and drop
+                      <a class="upload-link">Click to upload</a> or drag and
+                      drop
                       <p class="upload-link-info">
                         SVG, PNG, JPG or GIF (max. 800x400px)
                       </p>
                     </div>
 
                     <div class="image-file-icon">
-                      <img src="jpg.png" alt="" srcset="">
-                     </div>
+                      <img src="jpg.png" alt="" />
+                    </div>
                   </div>
                   <div class="file-detail">
                     <div class="file-type-icon">
-                      <img src="pdf (1).png" alt="" srcset="">
+                      <img src="pdf (1).png" alt="" />
                     </div>
                     <div class="file-progress">
-                      <div class="file-name">tedf.pdf</div>
-                       <div class="progress">
+                      <div class="file-name">Tech design requirements.pdf</div>
+                      <div class="progress">
                         <div class="portfolio-progress-bar-section">
                           <div class="portfolio-progress-bar"></div>
                           <div class="portfolio-progress-bar-cover one"></div>
                         </div>
                         <div class="progress-percentage">100%</div>
-                       </div>
+                      </div>
                     </div>
-                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
+                    <div class="completed-icon">
+                      <i class="fa-solid fa-circle-check"></i>
+                    </div>
                   </div>
                   <div class="file-detail">
                     <div class="file-type-icon">
-                      <img src="mp4-file.png" alt="" srcset="">
+                      <img src="mp4-file.png" alt="" />
                     </div>
                     <div class="file-progress">
-                      <div class="file-name">tedf.pdf</div>
-                       <div class="progress">
+                      <div class="file-name">Dashboard recording.mp4</div>
+                      <div class="progress">
                         <div class="portfolio-progress-bar-section">
                           <div class="portfolio-progress-bar"></div>
                           <div class="portfolio-progress-bar-cover two"></div>
                         </div>
                         <div class="progress-percentage">80%</div>
-                       </div>
+                      </div>
                     </div>
-                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
+                    <div class="trash-icon">
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
                   </div>
                   <div class="file-detail">
                     <div class="file-type-icon">
-                      <img src="video.png" alt="" srcset="">
+                      <img src="video.png" alt="" />
                     </div>
                     <div class="file-progress">
-                      <div class="file-name">tedf.pdf</div>
-                       <div class="progress">
+                      <div class="file-name">Dashboard prototype FINAL.fig</div>
+                      <div class="progress">
                         <div class="portfolio-progress-bar-section">
                           <div class="portfolio-progress-bar"></div>
                           <div class="portfolio-progress-bar-cover three"></div>
                         </div>
                         <div class="progress-percentage">30%</div>
-                       </div>
+                      </div>
                     </div>
-                    <div class="trash-icon"><i class="fas fa-trash"></i></div>
+                    <div class="trash-icon">
+                      <i class="fa-solid fa-trash-can"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -514,12 +487,13 @@ I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI desi
     <script>
       function topNavFunction() {
         var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
+        if (x.className === "sidebar") {
           x.className += " responsive";
         } else {
-          x.className = "topnav";
+          x.className = "sidebar";
         }
       }
+     
     </script>
   </body>
 </html>

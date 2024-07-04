@@ -1,5 +1,6 @@
 .setting-section {
-    padding: 20px 20px 48px 0px;
+    padding: 20px 20px 48px 20px;
+    border-left: 1px solid #EAECF0;
 }
 
 .setting-header {
@@ -20,6 +21,7 @@
 .button-design {
     background-color: #fff;
     font-weight: 600;
+    padding: 6px;
     font-size: 13px;
     color: #667085;
     border: none;
@@ -38,7 +40,8 @@
 .personal-info {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAECF0;
 }
 
 .personal-info .personal-info-title .title {
@@ -75,7 +78,9 @@ button.cancel {
 }
 
 .name-input, .email-input {
-    padding: 10px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #EAECF0;
+
 }
 
 .name-input input {
@@ -103,12 +108,9 @@ button.cancel {
     flex-direction: column;
 }
 
-.photo-label label {
-    font-size: 15px;
-}
-
-.photo-label .photo-label-info {
+.photo-label .photo-label-info ,.bio-label-info{
     font-size: 12px;
+    font-weight: 400 !important;
 }
 
 .current-image {
@@ -141,7 +143,16 @@ button.cancel {
 }
 
 .name-label label, .photo-label label, .email-label label {
+    color: #344054;
     width: 210px !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.user-email{
+    font-size: 12px;
+    text-align: start;
+    color: #475467;
+    font-weight: 600;
 }
 
 .file-upload .icon-info {
