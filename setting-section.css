@@ -84,13 +84,12 @@ button.cancel {
 }
 
 .name-input input {
-    width: 200px ;
+    width: 205px ;
     margin: 5px;
 }
 
 .email-input input {
     width: 415px ;
-    margin: 5px;
 }
 
 .input-box, .image-input-box, .select-box, .bio-edit {
@@ -167,19 +166,20 @@ button.cancel {
 }
 
 .select-box select {
-    height: 35px;
+    height: 35px !important;
     width: 415px;
+    border: 1px solid #D0D5DD;
+    border-radius: 5px;
 }
 
 .bio-select-box {
     height: 35px;
     width: 205px;
-    border: 1px solid #D0D5DD;
     border-radius: 5px;
 }
 
 .bio-text-editor {
-    width: 215px;
+    width: 205px;
     align-items: center;
     display: flex;
     justify-content: start;

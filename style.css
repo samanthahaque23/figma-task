@@ -245,6 +245,7 @@ input[type=submit]:hover {
   display: none;
 }
 
+
 .name-input, .email-input, .responsive-align {
   display: flex;
 }
@@ -384,7 +385,6 @@ input[type=submit]:hover {
 
   .email-input input {
     width: 100% !important;
-    margin: 5px;
   }
 
   .select-box select {
@@ -454,10 +454,15 @@ input[type=submit]:hover {
 }
 
 .bio-select-box select {
-  width: 200px;
+  width: 205px;
   height: 35px;
 }
-
+.setting-section {
+  border-left: none !important;
+}
+.select-container {
+  width: 100% !important;
+}
 .bio-edit {
   justify-content: center;
 }
